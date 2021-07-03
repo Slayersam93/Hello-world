@@ -1,5 +1,4 @@
 package esercizi.strutture.controllo;
-import java.util.*;
 
 public class EserciziStruttureControllo5 {
 	public static void main(String[] args) {
@@ -98,6 +97,7 @@ public class EserciziStruttureControllo5 {
 */
 	public static int simpleFindMode(int[] input) {
 		int countMax = 0;										//max numero di volte che ho visto un intero
+		@SuppressWarnings("unused")
 		int posMode = 0;										//posizione della moda(valora che appare + volte)
 		int modValue = input[0];								//valore della moda
 		for (int i = 0; i < input.length - 1; i++) {			//ciclo su tutti gli elementi validi dell'array (valido = diverso da Integer minvalue)
